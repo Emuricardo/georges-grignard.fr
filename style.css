@@ -1,0 +1,17 @@
+body {
+  font-size: xx-large;
+}
+
+h1 {
+}
+
+.header {
+  background: blue;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  background: lightgrey;
+}
+
