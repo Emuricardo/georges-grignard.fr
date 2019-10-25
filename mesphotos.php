@@ -9,9 +9,8 @@ foreach($files as $images)
   echo $f.'1 <br>';
 }
 ?>
-
 <?php
-$rp = "./usb/JOJO/Photos/DCIM 27-04-2019/100APPLE";
+$rp = "/mnt/usb/photos/georges - 6s/";
 // nom du répertoire à lister
 $rep = opendir($rp);
 while ($sous_fichier = readdir($rep)) {// parcours du répertoire
