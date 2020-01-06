@@ -24,12 +24,32 @@
       </nav>
       <article class="article-main">
         <h2>Le blog, pour rester connecter!</h2>
-        <p>Bienvenue sur mon nouveau projet, je reprend le developpement web, laisser en stand-by depuis 10 ans, he oui ca fait un bail!</p>
-        <p>Cet application aura pour but de mettre en application mon apprentissage dans la meilleur qualite possible.</p>
+        <p><a href="#">Puis jamais deux sans trois...</a> le <em>06/01/2020</em> par Georges.</p>
+        <p><a href="#">On fait un deuxieme post...</a> le <em>06/01/2020</em> par Georges.</p>
+        <p><a href="#">Bienvenue sur mon nouveau projet...</a> le <em>06/01/2020</em> par Georges.</p>
         <h2>Les photos, pour mieux visualiser.</h2>
-        <p>Lorem ipsum</p>
+        <a href="#"><img src="photos/IMG_2824_min.JPG" class="album-photos"></a>
+        <a href="#"><img src="photos/IMG_2824_min.JPG" class="album-photos"></a>
+        <a href="#"><img src="photos/IMG_2824_min.JPG" class="album-photos"></a>
+        <a href="#"><img src="photos/IMG_2824_min.JPG" class="album-photos"></a>
+        <a href="#"><img src="photos/IMG_2824_min.JPG" class="album-photos"></a>
         <h2>Contact, comme le nom l'indique</h2>
-        <p>Lorem ipsum</p>
+        <form action="index.php?p=contact-post" method="post">
+          <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+          <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user+mail">
+          </div>
+          <div>
+            <label for-"msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div>
+            <input type="button" value="envoyer">
+          </div>
       </article>
     </section>
     <footer class="footer">
