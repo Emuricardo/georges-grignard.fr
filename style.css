@@ -6,10 +6,10 @@ body {
   --3-color: #FF4A51;
   --4-color: #FF931E;
   --5-color: #BDCCD4;
-  --6-color: #9966ff;
-  --7-color: #6666FF;
-  --8-color: #6699ff;
-  --9-color: #66FF99;
+  --6-color: #494CA2;
+  --7-color: #8186D5;
+  --8-color: #C6CBEF;
+  --9-color: #E3E7F1;
 }
 h1 {
   font-size: 2em;
@@ -24,36 +24,37 @@ section {
   opacity: 0.8;
   width: 100%;
   top:0px;
-  text-align: center;
-  text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.2em black;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  text-border: white solid 2px;
+  height: 100px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
 .main {
-  margin: 20px;
 }
 .nav {
-  padding:10px;
+}
+.nav ul {
+  margin: 30px;
   display: flex;
   justify-content: center;
-  background: black;
+  flex-wrap: nowrap;
 }
 .nav ul li {
-  display: inline-block;
-  width: 80px;
-  background: grey;
 }
 .nav ul li a {
+}
+.nav ul li a:hover {
+  border-radius: 150px;
+  opacity:0.8;
 }
 .nav ul li img {
   border: black solid 3px;
   border-radius: 130px;
-  box-shadow: 0px 0px 1em black;
-  width:30%;
-}
-.nav ul li a:hover {
-  border-radius: 150px;
-  background: grey;
-  opacity:0.8;
-  display: inline-block;
+  box-shadow: 0px 0px 0.5em black;
+  width:80%;
 }
 .article-main {
   padding: 20px;
@@ -72,19 +73,17 @@ section {
   section {
   }
   .main {
-  margin-top: 100px;
   }
   .nav {
   }
   .article-main {
-    padding-top: 110px;
   }
   .nav ul li {
   margin: 20px;
   }
   .nav ul li img {
-  border: black solid 9px;
-  width: 100%;
+  border: black solid 7px;
+  width: 80%;
   }
   .header {
     height:180px;
