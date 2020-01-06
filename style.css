@@ -11,32 +11,31 @@ h1 {
   font-size: 2em;
   font-style: bold;
 }
+section {
+  display: flex;
+  flex-direction: column;
+}
 .header {
   background: var(--1-color);
   opacity: 0.8;
   padding: 20px;
   width: 100%;
-  position:fixed;
   top:0px;
-  box-shadow: 0px 2px 10px black;
-}
-section {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 .main {
 }
-.section-nav {
+.nav {
   padding:10px;
   padding-top: 100px;
   display: flex;
   justify-content: center;
   background-color: var(--4-color);
 }
-.section-nav ul li {
+.nav ul li {
   display: inline;
 }
-.section-nav ul li a {
+.nav ul li a {
   border: black solid 2px;
   border-radius: 100px;
   background: linear-gradient(var(--4-color), 70%, grey);
@@ -48,14 +47,14 @@ section {
   height: 60px;
   font-size: small;
 }
-.section-nav ul li img {
+.nav ul li img {
   width: 50px;
 }
-.section-nav ul li a:hover {
+.nav ul li a:hover {
   background: grey;
   opacity:0.8;
 }
-.section-article {
+.article-main {
   padding: 20px;
   background-color: var(--3-color);
 }
@@ -73,9 +72,12 @@ section {
   section {
     flex-direction: row;
   }
-  .section-nav {
+  .nav {
   }
-  .section-article {
+  .article-main {
     padding-top: 110px;
+  }
+  .header {
+    height:200px;
   }
 }
